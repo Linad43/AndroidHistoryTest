@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">AndroidHistoryTest</string>
+    <string name="begin_test">Начать тестирование</string>
+    <string name="test1Text">1) Сколько длилась столетняя война?</string>
+    <string name="test1Var1">а) 116</string>
+    <string name="test1Var2">б) 99</string>
+    <string name="test1Var3">в) 100</string>
+    <string name="test1Var4">г) 150</string>
+    <string name="test2Text">2) В какой стране изобрели панамы? </string>
+    <string name="test2Var1">а) Бразилия</string>
+    <string name="test2Var2">б) Чили </string>
+    <string name="test2Var3">в) Панама</string>
+    <string name="test2Var4">г) Эквадор</string>
+    <string name="test3Text">3) В каком месяце отмечается Октябрьская революция? </string>
+    <string name="test3Var1">а) Январь</string>
+    <string name="test3Var2">б) Сентябрь</string>
+    <string name="test3Var3">в) Октябрь </string>
+    <string name="test3Var4">г) Ноябрь</string>
+    <string name="test4Text">4) Как зовут короля Георга 6-го? </string>
+    <string name="test4Var1">а) Альберт</string>
+    <string name="test4Var2">б) Георг</string>
+    <string name="test4Var3">с) Мануэль</string>
+    <string name="test4Var4">г) Роберт"</string>
+    <string name="test5Text">5) От какого животного происходит название Канарских островов? </string>
+    <string name="test5Var1">а) Канарейка </string>
+    <string name="test5Var2">б) Кенгуру </string>
+    <string name="test5Var3">с) Тюлень</string>
+    <string name="test5Var4">г) Крыса</string>
+    <string name="accept">Подтвердить</string>
+    <string name="begin">На главную</string>
+    <string name="answers">1) Столетняя война длилась 116 лет с 1337 по 1453 год. \n2) Панамы изобрели в Эквадоре. \n3) Октябрьская революция отмечается в ноябре. \n4) Имя короля Георга - Альберт. Он поменял его в 1936 году. \n5) Название Канарских островов происходит от тюленя.</string>
+</resources>
