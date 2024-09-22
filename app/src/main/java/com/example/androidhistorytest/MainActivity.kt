@@ -3,6 +3,8 @@ package com.example.androidhistorytest
 import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
+import android.view.Menu
+import android.view.MenuItem
 import android.view.View
 import android.widget.Button
 import androidx.appcompat.widget.Toolbar
@@ -28,9 +30,25 @@ class MainActivity : AppCompatActivity() {
         }
         button = findViewById(R.id.button)
         toolbar = findViewById(R.id.toolbar)
+
+        setSupportActionBar(toolbar)
+
+    }
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.main_menu, menu)
+        return super.onCreateOptionsMenu(menu)
     }
 
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        when(item.itemId){
+            R.id.exit ->{
+                finish()
+            }
+        }
+        return true
+    }
     fun beginTest(view: View) {
+        finish()
         startActivity(Intent(this, TextTest::class.java))
     }
 }
